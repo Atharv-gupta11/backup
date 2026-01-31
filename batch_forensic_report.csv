@@ -1,0 +1,7 @@
+File,Consistency,AI_Prob,Risk,Time
+ai_deepfake_face.jpg,0.2188,0.5371,🚨 HIGH,13.37s
+ai_deepfake_face_clean.jpg,0.2159,0.4146,🚨 HIGH,22.51s
+ai_elephant.jpg,0.3377,0.4128,✅ LOW,16.07s
+ai_elephant_clean.jpg,0.3302,0.4599,🚨 HIGH,16.90s
+ai_protest.jpg,0.2362,0.4463,🚨 HIGH,13.71s
+ai_protest_clean.jpg,0.2339,0.4367,🚨 HIGH,15.13s

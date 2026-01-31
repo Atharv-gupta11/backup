@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+streamlit
+torch
+torchvision
+transformers
+openai-clip
+pillow
+opencv-python
+scipy
+numpy
+python-dotenv
+requests
+google-generativeai
+scikit-learn
+python-multipart

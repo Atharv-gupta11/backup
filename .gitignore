@@ -1,0 +1,65 @@
+re# --- Environment & Security ---
+.env
+.venv/
+venv/
+env/
+# Never push your API keys or secret tokens!
+*.env
+.secret_keys
+
+# --- Python Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Streamlit & Web ---
+.streamlit/config.toml
+# Optional: keep config.toml if you want shared UI settings, 
+# but ignore secrets.toml
+.streamlit/secrets.toml
+
+# --- Machine Learning & Data ---
+# Ignore massive model weights and raw datasets
+models/*.pth
+models/*.h5
+models/*.bin
+models/*.pb
+data/raw/
+data/processed/
+# If you save local clips/images during testing
+uploads/
+temp_frames/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Log Files ---
+*.log
+logs/

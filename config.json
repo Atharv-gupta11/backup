@@ -1,0 +1,9 @@
+{
+    "thresholds": {
+        "consistency_min": 0.30,
+        "ai_prob_max": 0.50
+    },
+    "model_settings": {
+        "reasoner_model": "gemini-1.5-flash"
+    }
+}
